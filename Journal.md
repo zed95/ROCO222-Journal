@@ -1,54 +1,27 @@
------BEGIN RSA PRIVATE KEY-----
-Proc-Type: 4,ENCRYPTED
-DEK-Info: AES-128-CBC,0278BECA79B61B366B16BFAD8E3A00BE
+$ ls		- lists directory contents 
 
-bEfzqWX4LdRdoTaPMukt3KW/qBpnGi+WC9Hn3PNdz5urbf4qAacywo238xZJarA8
-bCogEOjWaS51Ysymvf+2Xphl3gVCI5jD3+536vgZBNhObh+NQ6PhtnyKaqOs2+bP
-/eU05Dat2Yc5kMtdZ7d0htjIkBhUGkp5pT9Igkg2vrV/O7B5Y1UOGvvi6JBPWlQG
-5Xp36K0ggSxhBuP9AGV6ahfOQcZ+VVwuxBF8bERJjwKrrjoxS2gu2djSipZ5g8r4
-ggKQTKl4t5IQfVHeQzEyLUY8wpOmjjFhzg+ODRhXBc5LD+bx3AUfRCkxWNIOOIPS
-HwVHJ4/YPjobm30j09rEsEsLg6YjHKZoACncFPpm+gAFObf49ODSEVKRSvgzgnCr
-+xmRwa149XlQ22C6qLRTZ250aA852IwC+zJNqk8qnKSPnb9HF5qg2qhmy9VYK3Cj
-4jseBp64jMgx0QJ92iD67ppGhWyiIy3cUYl8e/c131IU2UHiy81NTsGowNcRicsf
-m2IaWMkWSPtCMzKHMPkqRe2eNQ78yDNW0qm5Q9soHdWpmImpjF0gs8j7twMFNo1n
-T9kn0WZwTNCbtjRBXR+xaHPnbjQgk8QJMQpBCOkPhNewgHfxOMJHFyTEoox6MmXC
-KYXV0rb5gta0nPNXD0D/0G0ZuQE+JACmJvzj8oqlBcI/BxwGCRd4ZzT12V9ENOwQ
-LFEtH9GXkxFFVM83f1+iuWm63p/DS12DmCMBkGxrRDonmwLJVhKeb1+HUtx2SlNe
-a6scwaqqW6bygNRbbeo6IvPcsolo7G+UwweVX5Fmne3lYgmCOqdvfmmWPa4lrLr/
-VWsu0E2C/EykEb7sTP4GC9ROvvuyHddyJ4N0O5qrN/Xp4tMqY2cMS4lB60zrqRZS
-kbd3z7uNurWWF9FTa4sy3tzIaWfIqqf8AKOkjMZabPqDwcKIBeWPmry0UZW9rD4t
-jnV9PtnTJSj77bEAr+wq94lGUErsskQFADPVdOr578oon/TbvbvTywcoSgAF3pfv
-XMGX2LJ13RQHXfrZQMS+BRV+WrHqEoHa/LvekUEkdUqkyumHeqScjdxW6YeFzjrA
-eGuWlzRaxUPB1Lam/Tr3qnCMmlg/ZikI2aobYBgEF5mdAFrkTgJbAJkpY6p9Er50
-LRnnZK3XlduIdORS/lHgVaATOM23IH5DyuU5JU+uY1HF7VRiUhcvjbdV4SwxW+bO
-yCaVagS7HPqGe/45kiWNZCJun73EIZVwEIo9+BfTLrQelQjJWsSObpd3+nzYqvmp
-5RKuep4U9Rln83SmVRgFG1wVqgEf/5bDSlIlpCT8iIMb82SmoQjdhTzAji99S582
-ODKF6epNHqTPG4w9LmIb6itPdX2HeHtMzq1B9mFPa3RRsZqPWlrCZJYHJIb5gUnb
-Mz8xMJgXdloLh7b6uwZj+zoxYG59AGNL7tuaSLHPOGdPWZdloCGGvFvLuPGxppew
-xqGeXMhwf4ecEuJfJE3/tt2XqeXqWP3DEQaKoUjR1ZlXtt8KNgGG3bF4JnbBxiSw
-+EyKQ+VzxLH6HU/owH/oK4PASjgWmor+CO6/zABqEkQLZjbbBYcHtmufvS7gRjmL
-rjn/VsPoZ79fD5JdADceEmwTWV3D4QDVOvBsfn4o7uXuRml/4DuzwtQ78TlMeDZn
-81Eq0kjgdvKSTF5EK0odHCJpDHzS8hLV/ocYFmiOarUyzHllDOhFqpEp6etKb7ZI
-ysAdGzT1RSJ3k/26g4v7eO3Y6Tbo4jOydTqR48OYZXWgNj1Q0pYVGdFVmU4M7E+j
-CcBN0fF8EHw50/e0Q5Gza1Bs3yKE6dX9vd2NK5Ucp/K6z26LKv1keqSld2hbgMyn
-XooX0wSqCon31QJuSR42r609EYaRPbiGmMdfbU+Zx+TBT6GV8c/hDLiElde5XLfs
-Kx7C+ARmi27gqTm6r/azrthq5sFOQU6KtT2xxjRWCGYAexEbdr69HmgcrNZq6IZF
-vBETVmEGkaUsbPEWme1A5hng6eTeYRM2Xhk9efwOvfoTCZ0T/LFehrNmtr7YR+JH
-L1uCJWjPotpsGKZm6CB7li173jjYeNmpv+G4M0c5jWevhIsBouYCjuLoyHCW0U8I
-EnnNvKdCJS2IFWo+7llmRwuhGPw41y8ayqlz+uRwYO31+s3Y4RajKZ01zILTPSMh
-p0rYmOJJJPvlZG3vFsGxaHz9crMPHy7vxqXffn2n4EfGEj79AnVJIiMu3mjxSciG
-H57K4BV2RbYQFIzzkB7ZsblscOL0QFb9LEphgDygN7ZfuSTeSkzTJJs/fORiH/7W
-J9dBD1cUdsd2V+1FW4niBimmwWzmjbIrHCm5Sbhcs0M3ecrK0QJ8r6J8ZkjowD3v
-n9EE5D66Qyc574cUZWImF1664xGNKEFVBqZY2JtfPayMf8FmXuWw3muCyCt0pwCH
-125WjEJOywtjKmQ52jHD3FuU+ADljZDiitzNp26xzfkmplxFYSAHKns9PLhB/UhT
-Q3zG1NfvN87nK+KnmgwqWNohIaeEsb4BDrG1MgCVdq87v7gOCRBknH0XqTPnB2WF
-8ReQFv+GyX0mEDQA6UyfcdJBjpkwH3liP9OhgLMOGv+YOdKxf57yEo67u0kjg8zK
-P7J61AE9iFFS9RyNlIFP+Gdao1QniX9zPpY2TzuLXe6gPhnrb+HBxFlIgNM/pQBw
-k8CV5d8JAcQ+Wsg2339oiHbXU7v8QOuJ2fP0XT0Ak+vU6B+A1NmA+pBJ9lTGe6Yq
-6vfuN1Zj0ix0PTm8Pjo42BhzSK+aAbk7eNa30FMK5JRIdqmpeT2GZhabupHZYpR6
-OMoGuwc0Cs6FqDmpIojRWFm2xzlsqUOP9RSFwGqfygNFkbIM568oTUouol+LDf44
-fZPOhDzmiU53v8qDxf/TA8g+kW4U50rUvoLSU7/38mO7npPxu+WNs5G4vojZkboj
-DnW+lDGmf/Z1+vKaeFqoG/J5FfMpHrVp8mqe5BQ1E4wnP3Ku3ZUTfDp3ltgf4E+y
-VGwkd0l+hebRrn0WLiXumHqOhhzqftj7CrQzU8dG8emJjLx5jDBeMfrL3gW8m5OT
-4HUkqxRTJIG1lm34wxgU8wxbe1FO5OzhsYYUF7XOW8x+IxBIMM6c4bjgyiG+i+WU
------END RSA PRIVATE KEY-----
+List  information  about  the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort is speci‐fied.
+
+own words 
+
+ls command lists all the folders (directories) and files in a particular folder (direcotry)
+
+$ cd /tmp	- moves to target directory which is /tmp
+		- tmp is a temporary storage space. Once you change from this direcotry it's contents are erased.
+
+cd - change folder (direcotry)
+
+$ cd $HOME	- changes the directory to home
+$ mkdir		- Creates a new folder within the target folder (directory)
+$ echo	"Hello" - prints whatever is in quotation marks back to the console
+> hello.md	- creates a new file
+$ cat hello.md		- Displays the contents of the target file in the terminal
+$ cp hello.md hello-again.md		- copes the contents of the file into another file. rm
+$ mv hello-again.md hello-hello.md	- Moves or renames the file. To move the file, write the 						  destination directory
+$ rm hello.md		- Removes target file
+$ rm -rf	
+# be careful with that one!		-
+$ cat /proc/cpuinfo			- Displays CPU information in the terminal	
+# is 'cpuinfo' a file??			- cpu info is a file since cat command deals with files
+
