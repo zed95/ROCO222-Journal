@@ -1,26 +1,57 @@
-$ ls		- lists directory contents 
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+DEK-Info: AES-128-CBC,7FB988697CAB8B4CAD9D42B06E8DA759
 
-List  information  about  the FILEs (the current directory by default).
-Sort entries alphabetically if none of -cftuvSUX nor --sort is speci‐fied.
+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
+-----END RSA PRIVATE KEY-----
 
-own words 
 
-ls command lists all the folders (directories) and files in a particular folder (direcotry)
-
-$ cd /tmp	- moves to target directory which is /tmp
-		- tmp is a temporary storage space. Once you change from this direcotry it's contents are erased.
-
-cd - change folder (direcotry)
-
-$ cd $HOME	- changes the directory to home
-$ mkdir		- Creates a new folder within the target folder (directory)
-$ echo	"Hello" - prints whatever is in quotation marks back to the console
-> hello.md	- creates a new file
-$ cat hello.md		- Displays the contents of the target file in the terminal
-$ cp hello.md hello-again.md		- copes the contents of the file into another file. rm
-$ mv hello-again.md hello-hello.md	- Moves or renames the file. To move the file, write the 						  destination directory
-$ rm hello.md		- Removes target file
-$ rm -rf	
-# be careful with that one!		-
-$ cat /proc/cpuinfo			- Displays CPU information in the terminal	
-# is 'cpuinfo' a file??			- cpu info is a file since cat command deals with files
+jgjjhvjhvjh
