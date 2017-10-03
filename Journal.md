@@ -7,4 +7,4 @@
 
 > The first step me and my lab partner Kyle have taken to contruct the commutator was sticking the copper tape around one side the cork.
 
-> !(https://github.com/zed95/ROCO222-Journal/blob/master/IMG_0486.JPG)
+![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/IMG_0486.JPG)
