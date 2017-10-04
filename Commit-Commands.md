@@ -7,7 +7,7 @@ to send the file to the repository on github - git push origin master
 to connect to the respository - git remote add origin <Insert website path here>
 
 to create a branch and switch to it - git checkout -b <insert branch name here>
-
+git 
 to switch back to master branch - git checkout master
 
 to delete the branch - git branch -d <insert branch name here>
