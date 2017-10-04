@@ -60,7 +60,7 @@
 
 > ## Testing the motor
 > 
-> After switching on the supply, the coil twitched but did not rotate. I suspect that it was due to the fact that the commutator was not smooth and circular enough in shape to continously conduct current well. I did not have enough time to improve the shape of the commutator and test it and so that will be the first thing I do during the next practical.
+> After switching on the supply, the coil twitched, but did not rotate. I suspect that it was due to the fact that the commutator was not smooth and circular enough in shape to continously conduct current well. I did not have enough time to improve the shape of the commutator and test it and so that will be the first thing I do during the next practical.
 
 
 
