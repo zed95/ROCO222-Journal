@@ -7,13 +7,13 @@
 > 
 > The first step me and my lab partner Kyle have taken to contruct the commutator was sticking the copper tape around one side the cork.
 > 
->![alt text](https://github.com/zed95/ROCO222-Journal/tree/master/Images/IMG_0486.JPG)
+>![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/Images/IMG_0486.JPG)
 > 
 > Before dividing the copper into two plates, I have decided to first draw a line on the cork to indiciate where we should make the divide. The point of this was to make sure that the lengths of the two plates are approximately the same length.
 > 
->![alt text](https://github.com/zed95/ROCO222-Journal/tree/master/Images/IMG_0487.JPG)
+>![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/Images/IMG_0487.JPG)
 > 
->![alt text](https://github.com/zed95/ROCO222-Journal/tree/master/Images/IMG_0488.JPG)
+>![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/Images/IMG_0488.JPG)
 
 
 > ## Adding the support shaft
@@ -22,7 +22,7 @@
 > 
 > There wasn't much to do in this section, the two pins only needed to be pushed into the middle of the cork from both sides create the shaft.
 > 
->![alt text](https://github.com/zed95/ROCO222-Journal/tree/master/Images/IMG_0489.JPG)
+>![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/Images/IMG_0489.JPG)
 
 > ## Winding the armature coil
 > 
@@ -32,9 +32,9 @@
 > 
 > Winding the wire around the cork wasn't easy as the copper wire kept getting tangled, which then had to be untangled which in turn took time and effort. In addition to that, we had to be careful to not damage the commutator in any way. After achieving **150 turns** of wire around the cork, we have sucuessfully created the coil. We have measured the total resistance of the coil using a multimeter; the measured value was **7.5&#937;**. We made sure that there was enough wire to attach the other end to the other part of the commutator.To secure the coil, we have taped it to the cork using electrical tape. The two ends of the wire had to be sanded down to remove the enamel on the copper which prevented the it wire from conducting electricity. At the end, I soldered the wires to the commutator.
 > 
->![alt text](https://github.com/zed95/ROCO222-Journal/tree/master/Images/IMG_0491.JPG)
+>![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/Images/IMG_0491.JPG)
 > 
->![alt text](https://github.com/zed95/ROCO222-Journal/tree/master/Images/IMG_0492.JPG)
+>![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/Images/IMG_0492.JPG)
 
 
 > ## Building magnet brackets and shaft support
@@ -48,14 +48,14 @@
 > 
 > We have been provided with a baseplate, screws and washers to attach everything onto the baseplate. We have marked the baseplate wih two lines perpendicular to each other so that we could align the parts correctly. We have then aligned the paperclips and attached them to the baseplate using the screws and washers. Next, we have placed the DC motor on the shaft support and then atached the neodymium magnets onto the magnet brackets, at the same height as the coil. The magnets came together several times during this process and due to neodymium magnet strength, trying to separate them became bothersome. We have learned that we should be more careful when handling neodymium mangnets.
 > 
->![alt text](https://github.com/zed95/ROCO222-Journal/tree/master/Images/IMG_0493.JPG)
+>![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/Images/IMG_0493.JPG)
 
 
 > ## Finishing the motor
 > 
 > Once me and Kyle attached everything to the baseplate, We created brushes from copper wire. The brushes supply power to the coil so that it can produce torque. We have connected supply leads to the copper wires and adjusted the voltage to 12V and set the current limit to 2A as advised.
 > 
->![alt text](https://github.com/zed95/ROCO222-Journal/tree/master/Images/IMG_0494.JPG)
+>![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/Images/IMG_0494.JPG)
 
 
 > ## Testing the motor
@@ -72,9 +72,9 @@
 > 
 > To make sure that the connection is constant between the coil and the power supply during the spinning of the motor, I have folded the bursh wires. I have done this because during the motor operation the brushes moved and sometimes lost contact with the crocodile clips of the power supply. 
 > 
->![alt text](https://github.com/zed95/ROCO222-Journal/tree/master/Images/Improved%20Commutator%20shape.JPG)
+>![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/Images/Improved%20Commutator%20shape.JPG)
 > 
->![alt text](https://github.com/zed95/ROCO222-Journal/tree/master/Images/Folded%20brush%20wires.JPG)
+>![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/Images/Folded%20brush%20wires.JPG)
 
 
 2 - Build a DC motor (nn/10/2017)
@@ -96,23 +96,23 @@
 > 
 > I have originally decided that I am going to make a 6 coil motor with some iron inside the armature to increase the magnetic field strength. After ordering iron washers, I realised that the armature would have to be much larger to accomodate the washers in all 6 of the armature teeth, since the washers were 3/4" in outer diameter. To keep the armature approximately the same size as the one I designed previously designed, I decided to stick with 3 coils. Having only 3 coils in the design made the design only a little bigger, with the original design having dimensions of 50x50x75mm and the new design having dimensions of 68x68x75mm to accommodate the iron washers. The new design is based on the old design of the armature which I created several months ago as a part of my personal project. Because I will have iron washers inside of my coils, the DC motor will be subject to **cogging**. To reduce the effects of cogging I have rotated the armature teeth by 6&#176;.
 > 
->![alt text](https://github.com/zed95/ROCO222-Journal/tree/master/Images/Old%20Armature.png)
+>![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/Images/Old%20Armature.png)
 >A picture of the old armature design
 > 
->![alt text](https://github.com/zed95/ROCO222-Journal/tree/master/Images/New%20Armature.png)
+>![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/Images/New%20Armature.png)
 >A picture of the new armature design
 > 
 >When the new armature finished printing, I placed the iron washers inside the armature teeth. I managed to fit 20 washers in each tooth which added weight to the print. To make sure that they do not fall out (I had to make the holes bigger than the washers actually are to make up for the fact that 3D printers are not 100% accurate and might not print the desired hole size), I used tape the secure them in place.
 > 
 > My next step was to start winding the copper wire around the armature teeth to create coils. I wanted to have 1000 turns on each but settled at 800 turns on each tooth as the coils would become too big to fit around the armature. I kept a tally so that I don't forget how many turns I have done on a particular tooth. I would add one to the tally every 100 turns. To make sure that the coil does not unwind during the winding process, I applied super glue every 300 turns and after finishing winding a tooth. The DC motor is wave wound.
 > 
->![alt text](https://github.com/zed95/ROCO222-Journal/tree/master/Images/New%20armature%20showing%20washers.JPG)
+>![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/Images/New%20armature%20showing%20washers.JPG)
 >A picture of the new armature design with the washers fitted.
 > 
->![alt text](https://github.com/zed95/ROCO222-Journal/tree/master/Images/New%20armature%20with%20coils.JPG)
+>![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/Images/New%20armature%20with%20coils.JPG)
 >A picture of the new armature with coil windings.
 > 
->![alt text](https://github.com/zed95/ROCO222-Journal/tree/master/Images/Turns%20tally.png)
+>![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/Images/Turns%20tally.png)
 >A picture of the turns tally.
 > 
 >I have also attached a shaft to the armature (as seen in the picture above) to allow the DC motor to spin when it is powered. The shaft is longer on one side and shorter on the other, the reason being that I will have to attach an encoder on the longer side of the shaft.
@@ -129,15 +129,15 @@
 > 
 > To save on the cost of printing the DC motor support, I changed the shape of the supoport by removing sections of the support that are unnecessary. Removing the unecessary parts left the support looking like a trapezium and reduced the cost by £1.74 per support.
 > 
->![alt text](https://github.com/zed95/ROCO222-Journal/tree/master/Images/Shaft%20Support.png)
+>![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/Images/Shaft%20Support.png)
 >A picture of the DC motor support.
 > 
 > After finishing the motor support design, I moved onto the magnet holders design. Designing the holders was more complicated compared to the motor support because I needd to make sure that the magnets will be in line with motor. I drew a diagram to help me with working out how high the magnet holders need to be and where the magnets needs to be positioned to be in level with the motor. I have made the thickness of the holders 10mm so that they are durable. Originally, I made openings at the back so that the magnets could be inserted into the holders but changed my mind and re-designed the holders to have the openings for the magnets on top; this way they are less likely to fall out of the holders. I have also made holes for screws in the magnet holders for the same reason mentioned in designing the motor support. Similarly, I also removed unnecessary material from the magnet holders to reduce the cost of printing and saved £2 per magnet holder.
 > 
->![alt text](https://github.com/zed95/ROCO222-Journal/tree/master/Images/Magnet%20holder%20dimenions.png)
+>![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/Images/Magnet%20holder%20dimenions.png)
 > A picture of the diagram used to work out the required height of the magnet holders.
 > 
->![alt text](https://github.com/zed95/ROCO222-Journal/tree/master/Images/Magnet%20holders.png)
+>![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/Images/Magnet%20holders.png)
 > Apicture of the magnet holder design.
 
 
