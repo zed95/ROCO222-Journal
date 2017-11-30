@@ -137,7 +137,7 @@
 >![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/Images/Magnet%20holder%20dimenions.png)
 > A picture of the diagram used to work out the required height of the magnet holders.
 > 
->![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/3Dprints/Magnet%20holders.stl)
+>![include](https://github.com/zed95/ROCO222-Journal/blob/master/3Dprints/Magnet%20holders.stl)
 > Apicture of the magnet holder design.
 
 
