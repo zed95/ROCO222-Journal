@@ -185,8 +185,50 @@ plug the encoder to the oscilloscope and run the motor and I should get a square
 
 
 
-## Calculating ANgular velocity of the motor
-Me and kyle have written the code to display the pulse count on the serial monitor in the Arduino IDE. After uploading the program to the arduino we have decided to see if we can calculate the angular velocity of our motor.
+## Calculating Angular velocity of the motor
+Me and kyle have written the code to display the pulse count on the serial monitor in the Arduino IDE. After uploading the program to the arduino we have decided to see if we can calculate the angular velocity of our motor. The code is shown below.
+
+```C
+const byte ledPin = 13;
+const byte interruptPin = 2;
+volatile byte state = LOW;
+unsigned int PulseCounter = 0;                                                  //Store the pulse count here
+unsigned int TimePoint1 = 0, TimePoint2 = 0;                                    //Time at the start of the loop will be stored in TimePoint1 and time at the end of the loop will be stored in TimePoint2
+
+
+
+
+
+void AngularVelocity() {                                                      // Right now I assume that I have one hole which calculates me the revolutions per second but we will do calculations for getting the angular velocity
+TimePoint1 = millis();                                                        //Store current time since begninning of the program
+  Serial.println(PulseCounter);                                               //Display the pulse count on the serial monitor
+  PulseCounter = 0;                                                           //Reset the pulse counter
+}
+
+
+
+void setup() {
+ Serial.begin(9600);                                                            //Initialise serial communication at 9600 bits per second
+pinMode(ledPin, OUTPUT);
+pinMode(interruptPin, INPUT);
+// configure the interrupt call-back: blink is called everytime the pin
+// goes from low to high.
+attachInterrupt(digitalPinToInterrupt(interruptPin), blink, RISING);
+TimePoint1 = millis();                                                        //Store current time since begninning of the program
+}
+void loop() {
+digitalWrite(ledPin, state);
+TimePoint2 = millis();                                                        //Store current time since begninning of the program
+
+if(TimePoint2 - TimePoint1 >= 1000) {                                         //If the difference between the two time points is more or equal to 1000ms (1 second)
+    AngularVelocity();                                                        //Run the Angular velocity function
+}
+}
+void blink() {
+state = !state;
+PulseCounter ++;                                                            //Increment the counter
+}
+```
 
 Afer having several attempts we have come to the conclusion that something is going wrong in recording the angular velocity of our motor. We have plotted graphs with our results and the readings were looking very inconsistent and some of them even ridiculous like 1000 revolutions per second which would correspond to a angular velocity of 360,000 degrees per second. For comparison, We have measured the angular of my drill; although the recordings varied less than in our motor, the results were still inconsistent with the velocity being 14,400 degrees per second on average and then suddenly rocketing to around 28,800 or diving to around 3,600 in matter of a second bearing in mind that the drill has a profesionally designed motor compared to our crude design. Because of this my conclusion for today is that the problem lies somewhere in the encoder disc or the circuit. I will look into it tomorrow and try to figure out what the problem is.
 
@@ -206,8 +248,6 @@ A picture of angular velocity graph of the drill. x-axis = time in seconds and y
 ==========================================================
 
 upload the video of the encoder making the LED blink after the program has been uploaded to the Arduino. Upload the code of my ptogram which is used to calculate angular velocity by counting pulses. show any calculations necessary for calculating angular velocity from the pulse counter in the program. show the excel results and graphs that we have obtained from the program and explain the weird results that we got which might be due to the way we did the whole experiment or the design of motor or the encoder or the program itself not being perfect and compare agains the results that we got from spinning the drill and recording the pulses .
-
-go on to say that we used the same disc which only has one hole which only allows us to get a pulse per revolution so our 
 
 
 ## Improving the resolution of the encoder
