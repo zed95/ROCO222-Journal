@@ -179,10 +179,9 @@ A picture of the encoder disc
 ## Estimating rotation speed in RPM
 How it works is we should get a square wave as the motor rotates because the disc allows the light to reach the phototransistor and then blocks the IR light so it doesnt get to the transistor. When the light shines onto the phototransistor the voltage goes to 5V and when it is blocked it goes to 0V and so a square wave between 0V and 5V will be produced at a frequency which is determined by the speed of rotation the motor. Obtaining the frequency will allow me and kyle to calculate speed of rotation. Frequency is measured per second and each cycle corresponds to one revolution then multiplying the frequency by 60 we should get rotations per minute.
 
-**perform this experiment, take pictures of the serup, record the frequency and perform calculations on the result the get the estimated RPM**
+Oscilloscope reading: ![](https://github.com/zed95/ROCO222-Journal/blob/master/Images/MeasuringRPM.gif)
 
-plug the encoder to the oscilloscope and run the motor and I should get a square wave as the light is blocked and unblocked. Because of the square wave I can get a frequency reading from the oscilloscope from which I can determine the rotations per minute (RPM). take picture of the square wave and the frequency and do any calculations needed as evidence of recorded rotation speed of motor 
-
+THe average frequency read from the oscilloscope was about 20Hz. 20Hz corresponds to 20 revolutions per second; if I multiply this value by 60 I get that my motor rotates at 1,200 revolutions per minute. I believe that the motor can go faster than that but due to the commutator being worn out and not having the brushes designed yet, caused the motor to not spin at the maximum velocity it could potentially rotate at. One thing I also noticed is that the readings ocasionally jumped to over 100Hz. The reason for it might be that the design of the encoder disc, the circuit and other parts is very crude and might be susceptible to some errors.
 
 
 ## Calculating Angular velocity of the motor
@@ -250,7 +249,11 @@ A picture of angular velocity graph of the drill. x-axis = time in seconds and y
 3 - Incremental encoder (24/10/2017)
 ==========================================================
 
-upload the video of the encoder making the LED blink after the program has been uploaded to the Arduino. Upload the code of my ptogram which is used to calculate angular velocity by counting pulses. show any calculations necessary for calculating angular velocity from the pulse counter in the program. show the excel results and graphs that we have obtained from the program and explain the weird results that we got which might be due to the way we did the whole experiment or the design of motor or the encoder or the program itself not being perfect and compare agains the results that we got from spinning the drill and recording the pulses .
+## Calculating Angular velocity of the motor
+
+After some investigation we have found the cause of the absurdly large encoder readings we have been getting when trying to measure the angular velocity of the motor. The cause of these anomalous readings is the magnetic field that our motor produces when we it is rotating. How we found that the circuit reacts to the magnetic field is we did not use the encoder disc to block out the IR light. If there is nothing to block out the light the encoder should not display any pulses being recorded. We have powered the motor and placed the encoder where we usually placed it when we tried to record the angular velocity and the encoder acted as if the encoder disc was blocking the light and displayed a random pulse count numbers on the serial monitor. This is why the readings me and Kyle took yesterday seemed incorrect and indeed were. The magnetic field was also the reason for ocassional jumps in frequency when recording the RPM of the motor using the oscilloscope. Because of this we were not able to record the angular velocity of our motor properly. **The only way we will be able to record the readings is to extend the shaft of the motor to increase the distance between the encoder circuit and the magnetic field or/and reduce the voltage and current to the motor so that the magnetic field is weaker and does not interfere with the encoder circuit.**
+
+the anomalous readings from the encoder: ![](https://github.com/zed95/ROCO222-Journal/blob/master/Images/Encoder%20and%20Motor.gif) 
 
 
 ## Improving the resolution of the encoder
