@@ -230,6 +230,9 @@ PulseCounter ++;                                                            //In
 }
 ```
 
+Result:
+![alt text](https://giphy.com/gifs/encoder-3ohjUNLA7H569UK4Ba)
+
 Afer having several attempts we have come to the conclusion that something is going wrong in recording the angular velocity of our motor. We have plotted graphs with our results and the readings were looking very inconsistent and some of them even ridiculous like 1000 revolutions per second which would correspond to a angular velocity of 360,000 degrees per second. For comparison, We have measured the angular of my drill; although the recordings varied less than in our motor, the results were still inconsistent with the velocity being 14,400 degrees per second on average and then suddenly rocketing to around 28,800 or diving to around 3,600 in matter of a second bearing in mind that the drill has a profesionally designed motor compared to our crude design. Because of this my conclusion for today is that the problem lies somewhere in the encoder disc or the circuit. I will look into it tomorrow and try to figure out what the problem is.
 
 ![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/Images/Angular%20v%20A1.png)
