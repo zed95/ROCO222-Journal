@@ -155,18 +155,23 @@ The actual brushes are designed to fit into the holes and have a larger round en
 
 The completed motor: ![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/Images/Completed%20motor.jpeg) 
 
+![](https://github.com/zed95/ROCO222-Journal/blob/master/Images/Motor%20rotating.gif)
+
 
 ##Cons in my design and possible improvements
 
 **Overall torque**
+
 The possible improvements I could make to the motor is add more coils to improve the operation of the motor. Adding more coils would make the output torque more constanct (smooth) as the motor rotates. The reason why the torque on my motor is not constant is because the torque equation mentioned earlier says that the torque is also determined by the angle (cos&#920;) of the coil relative to the magnetic field. Maximum torque is experienced at cos&#920; = 0 and zero at cos&#920; = 90. Therefore the more more coils there are the higher the minimum torque. The diagram below shows the overall torque compared to the number of coils the motor has. The more area is enclosed in the curves the more overall torque the motor has.
 
 ![alt text](https://github.com/zed95/ROCO222-Journal/blob/master/Images/Torque%20vs%20angle.png)
 
 **Centre of mass**
+
 The centre of mass of the motor is not located in on the axis of rotation (on the shaft) which introduces vibrations when the motor attempts to spin faster.  
 
 **The commutator**
+
 I would say that the biggest con of my motor is the commutator. Even though I have improved it, it is not to the standard I would like it to be. Because the commutator is a few rows of wire with spaces between them, the brushes and the commutator will not be contact all the time while the motor is rotating whcih will affect the torque of the motor. Furthermore, there is a lot friction between the commutator and the brushes which significantly reduces the speed of my motor. What I would differently next time is attach copper plates to the commutator instead of wires or aluminium strips cut out from a can; this way the durability of the commutator would improve, the contact with the brushes would be better and soldering the coil wires to the commutator would be much easier as trying to solder copper to the aluminium proved to be horribly hard and required me to actually glue the wire to the aluminium. I would also try to reduce the friction between the brushes and the commutator so the speed losses are reduced.
 
 
@@ -777,51 +782,55 @@ After uploading the micro-step code to the arduino the motor's operation was smo
 
 To estimate the maximum angular velocity of the different mode me and Kyle set the delay to a value that made the motor look like it is rotating and its fastest. We then used a stopwatch record the time it took the stepper motor to complete one revolution in the different modes. The procedure was repeated 5 times for each of the modes and then an average angular velocity was calculated for the different modes. The results for maximum angular velocity are shown below:
 
-|Micro-step|
-------------
-|Attempt|Time|
-|1	|1.09|
-|2	|1.13|
-|3	|1.09|
-|4	|1.01|
-|5	|1.03|
-|Average|1.07|
+|Micro-step    |
+|--------------|
+|Attempt|Time  |
+|-------|:----:|
+|1	|  1.09|
+|2	|  1.13|
+|3	|  1.09|
+|4	|  1.01|
+|5	|  1.03|
+|Average|  1.07|
 
 Angular Velocity = 360/1.07 = 336.5 deg/s
 
-|Full-step|
-------------
-|Attempt|Time|
-|1	|1.03|
-|2	|1.03|
-|3	|0.98|
-|4	|0.99|
-|5	|0.95|
-|Average|0.996|
+|Full-step     |
+|--------------|
+|Attempt|Time  |
+|-------|:----:|
+|1	| 1.03 |
+|2	| 1.03 |
+|3	| 0.98 | 
+|4	| 0.99 |
+|5	| 0.95 |
+|Average| 0.996|
 
 Angular Velocity = 360/0.996 = 361.5 deg/s
 
-|Double-step|
---------------
-|Attempt|Time|
-|1	|1.01|
-|2	|0.98|
-|3	|0.96|
-|4	|0.96|
-|5	|0.99|
-|Average|0.98|
+|Double-step   |
+|--------------|
+|Attempt|Time  |
+|-------|:----:|
+|1	|  1.01|
+|2	|  0.98|
+|3	|  0.96|
+|4	|  0.96|
+|5	|  0.99|
+|Average|  0.98|
 
 Angular Velocity = 360/0.98 = 367.4 deg/s
 
-|Half-step|
---------------
-|Attempt|Time|
-|1	|1.80|
-|2	|1.88|
-|3	|1.73|
-|4	|1.75|
-|5	|1.74|
-|Average|1.78|
+|Half-step     |
+|--------------|
+|Attempt|Time  |
+|-------|:----:|
+|1	|  1.80|
+|2	|  1.88|
+|3	|  1.73|
+|4	|  1.75|
+|5	|  1.74|
+|Average|  1.78|
 
 Angular Velocity = 360/1.78 = 202.3 deg/s
 
@@ -912,7 +921,7 @@ void loop() {
 controlling the servo: ![](https://github.com/zed95/ROCO222-Journal/blob/master/Images/Servo_rotation.gif)
 
 ## Robot arm mock-up
-To estimate the torque of the motor, I have measured and marked distance from the center of the motor in 1cm intervals. I have also created a weight from 14, 2p coins to create a mass of 102g. The equation for torque is: &#964 = F&#215d. This equation assumes that the force acts 90 degrees with respect to the center of the sha servo shaft and so I will make sure that when I test the torque, the weight will be perpendicular to the shaft. The equation is tellig me that the force on the servo shaft will increase with distance. from the datasheet of the servo I get that the stall torque is 1.8kgf*cm, this tells me that If I approximate my weight to be 100g, the servo should stall when the weight is attached 18cm from the servo shaft (1.8 &#215 1 = 0.1 &#215 18).
+To estimate the torque of the motor, I have measured and marked distance from the center of the motor in 1cm intervals. I have also created a weight from 14, 2p coins to create a mass of 102g. The equation for torque is: &#964 = F&#215d. This equation assumes that the force acts 90 degrees with respect to the center of the sha servo shaft and so I will make sure that when I test the torque, the weight will be perpendicular to the shaft. The equation is tellig me that the force on the servo shaft will increase with distance. from the datasheet of the servo I get that the stall torque is 1.8kgf*cm, this tells me that If I approximate my weight to be 100g, the servo should stall when the weight is attached 18cm from the servo shaft (1.8 &#215; 1 = 0.1 &#215; 18).
 
 After testing the torque of the servo motor I have obtained the stall torque to be 1.7kgf*cm. This result is close enough to the given value in the datasheet and therefore I will conclude that the experiment was performed correctly. 
 
@@ -960,9 +969,13 @@ Two servos being controlled: ![](https://github.com/zed95/ROCO222-Journal/blob/m
 I have decided to design my own robotic arm inspired by one of the pictures in the roco labs. I have designed the parts myself and had to measure the dimensions of the sg90 servo motor so that it fits into the skeleton. I had to make the mounting space bigger than the actual servo so that the servo can fit into the skeleton. The links to the designs are listed below.
 
 [Part 1](https://github.com/zed95/ROCO222-Journal/blob/master/3Dprints/Robot%20Arm%20Part1.stl)
+
 [Part 2](https://github.com/zed95/ROCO222-Journal/blob/master/3Dprints/Robot%20Arm%20Part2.stl)
+
 [Part 3](https://github.com/zed95/ROCO222-Journal/blob/master/3Dprints/Robot%20Arm%20part3.stl) - a nut to ensure the parts remain attached together
+
 [Part 4](https://github.com/zed95/ROCO222-Journal/blob/master/3Dprints/Robot%20Arm%20part4.stl)
+
 [Part 5](https://github.com/zed95/ROCO222-Journal/blob/master/3Dprints/Robot%20Arm%20part5.stl)
 
 The assembly required me to sand the sides of the mounts to make them bigger so that the servos fit because the prints were printed a bit smaller than expected. In the end I managed to assemble everything together. The pictures from the assembly process are shown below.
