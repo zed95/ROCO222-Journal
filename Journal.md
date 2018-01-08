@@ -158,7 +158,7 @@ The completed motor: ![alt text](https://github.com/zed95/ROCO222-Journal/blob/m
 ![](https://github.com/zed95/ROCO222-Journal/blob/master/Images/Motor%20rotating.gif)
 
 
-##Cons in my design and possible improvements
+## Cons in my design and possible improvements
 
 **Overall torque**
 
@@ -782,8 +782,8 @@ After uploading the micro-step code to the arduino the motor's operation was smo
 
 To estimate the maximum angular velocity of the different mode me and Kyle set the delay to a value that made the motor look like it is rotating and its fastest. We then used a stopwatch record the time it took the stepper motor to complete one revolution in the different modes. The procedure was repeated 5 times for each of the modes and then an average angular velocity was calculated for the different modes. The results for maximum angular velocity are shown below:
 
-|Micro-step    |
-|--------------|
+Micro-step   
+
 |Attempt|Time  |
 |-------|:----:|
 |1	|  1.09|
@@ -795,8 +795,8 @@ To estimate the maximum angular velocity of the different mode me and Kyle set t
 
 Angular Velocity = 360/1.07 = 336.5 deg/s
 
-|Full-step     |
-|--------------|
+Full-step     
+
 |Attempt|Time  |
 |-------|:----:|
 |1	| 1.03 |
@@ -808,8 +808,8 @@ Angular Velocity = 360/1.07 = 336.5 deg/s
 
 Angular Velocity = 360/0.996 = 361.5 deg/s
 
-|Double-step   |
-|--------------|
+Double-step   
+
 |Attempt|Time  |
 |-------|:----:|
 |1	|  1.01|
@@ -821,8 +821,8 @@ Angular Velocity = 360/0.996 = 361.5 deg/s
 
 Angular Velocity = 360/0.98 = 367.4 deg/s
 
-|Half-step     |
-|--------------|
+Half-step     
+
 |Attempt|Time  |
 |-------|:----:|
 |1	|  1.80|
